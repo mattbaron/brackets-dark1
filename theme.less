@@ -1,4 +1,4 @@
-// Copyright (c) 2014 - present Adobe Systems Incorporated. All rights reserved.
+   // Copyright (c) 2014 - present Adobe Systems Incorporated. All rights reserved.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
 // copy of this software and associated documentation files (the "Software"),
@@ -41,7 +41,7 @@
 
 @salmon: #df6b75;
 @lightBlue: #61afee;
-@yellowGold: #e4be7b;
+@yellow: #FCEC88;
 @purple: #c477db;
 @lightGreen: #98c379;
 
@@ -73,31 +73,45 @@
 }
 
 
-.cm-atom, .cm-string, .cm-string-2, .cm-hr {color: @lightGreen;}
+.cm-atom, .cm-string, .cm-string-2, .cm-hr { color: @yellow; }
 
 .cm-plus {color: @purple;}
 .cm-number { color: @purple; }
 .cm-attribute { color: @purple; }
 
 .cm-def { color: @lightBlue; }
+
 .cm-property {color: @salmon; }
 
-.cm-variable { color: @yellowGold;}
+.cm-variable { color: @lightBlue; }
 .cm-variable-2 { color: @lightBlue; }
-.cm-varaible-3 { color: @yellowGold; }
+.cm-varaible-3 { color: @lightBlue; }
 
 .cm-operator, .cm-meta, .cm-bracket {color: @foreground;}
+
 .cm-comment {color: #767676;}
 .cm-error, .cm-minus {color: #dc322f;}
 .cm-header {color: #d85896;}
 .cm-link {color: #b77fdb; text-decoration: none;}
 .cm-rangeinfo {color: #6c71c4;}
 
-.cm-qualifier, .cm-builtin, .cm-quote {color: #6c9ef8;}
-.cm-builtin { color: @test; }
+.cm-quote {
+   color: @lightBlue;
+}
+
+.cm-builtin {
+   color: @test;
+}
+
+.cm-qualifier {
+   color: @lightGreen;
+}
 
 .cm-keyword { color: @purple; }
-.cm-tag { color: @yellowGold; }
+
+.cm-tag {
+   color: @lightGreen;
+}
 
 /* Extra CSS */
 
